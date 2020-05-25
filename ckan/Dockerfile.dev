@@ -1,0 +1,3 @@
+FROM shubhammahajan/ckanmaster:latest
+
+MAINTAINER Shubham Mahajan <shubham.mahajan@datopian.com>
