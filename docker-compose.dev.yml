@@ -77,18 +77,6 @@ services:
       main:
         aliases:
           - redis
-
-
-  testing-nginx:
-    container_name: testing-nginx
-    build:
-      context: test-webserver/
-    networks:
-      main:
-        aliases:
-        - nginx
-    ports:
-      - "80:80"
  
 
 volumes:
